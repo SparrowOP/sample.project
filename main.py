@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 
-path = r"C:\Users\uschb\PythonProject\CSV\in.csv"
+path = "https://github.com/SparrowOP/sample.project/blob/main/CSV/in.csv"
 df = pd.read_csv(path, skiprows=1, header=None)
 vol = df.to_numpy()
 mean = vol.mean()
